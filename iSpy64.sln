@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iSpy64", "iSpy64.csproj", "{F4799C73-DEE9-48F2-B626-32149CC30976}"
 EndProject
@@ -298,8 +298,8 @@ Global
 		{A536B02A-B0B1-4753-8328-17369EF09976}.CD_ROM|x86.Build.0 = Release|x86
 		{A536B02A-B0B1-4753-8328-17369EF09976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A536B02A-B0B1-4753-8328-17369EF09976}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A536B02A-B0B1-4753-8328-17369EF09976}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{A536B02A-B0B1-4753-8328-17369EF09976}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{A536B02A-B0B1-4753-8328-17369EF09976}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
+		{A536B02A-B0B1-4753-8328-17369EF09976}.Debug|Mixed Platforms.Build.0 = Debug|x64
 		{A536B02A-B0B1-4753-8328-17369EF09976}.Debug|Win32.ActiveCfg = Debug|x86
 		{A536B02A-B0B1-4753-8328-17369EF09976}.Debug|Win32.Build.0 = Debug|x86
 		{A536B02A-B0B1-4753-8328-17369EF09976}.Debug|x64.ActiveCfg = Debug|x64
