@@ -2390,7 +2390,11 @@ public partial class objectsCameraDetector {
     private int minwidthField;
     
     private int minheightField;
-    
+
+    private int maxwidthField;
+
+    private int maxheightField;
+
     private bool highlightField;
     
     private string colourprocessingField;
@@ -2620,7 +2624,37 @@ public partial class objectsCameraDetector {
             this.minheightField = value;
         }
     }
-    
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlAttributeAttribute()]
+    [System.ComponentModel.DefaultValueAttribute(20)]
+    public int maxwidth
+    {
+        get
+        {
+            return this.maxwidthField;
+        }
+        set
+        {
+            this.maxwidthField = value;
+        }
+    }
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlAttributeAttribute()]
+    [System.ComponentModel.DefaultValueAttribute(20)]
+    public int maxheight
+    {
+        get
+        {
+            return this.maxheightField;
+        }
+        set
+        {
+            this.maxheightField = value;
+        }
+    }
+
     /// <remarks/>
     [System.Xml.Serialization.XmlAttributeAttribute()]
     [System.ComponentModel.DefaultValueAttribute(false)]

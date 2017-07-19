@@ -40,16 +40,22 @@
             this.label3 = new System.Windows.Forms.Label();
             this.chkHighlight = new System.Windows.Forms.CheckBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.numMaxWidth = new System.Windows.Forms.NumericUpDown();
+            this.label4 = new System.Windows.Forms.Label();
+            this.numMaxHeight = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.numWidth)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numHeight)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numMaxWidth)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numMaxHeight)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.AutoSize = true;
             this.button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button1.Location = new System.Drawing.Point(91, 155);
+            this.button1.Location = new System.Drawing.Point(94, 210);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(32, 23);
             this.button1.TabIndex = 78;
@@ -79,7 +85,7 @@
             // 
             // pnlTrackingColor
             // 
-            this.pnlTrackingColor.Location = new System.Drawing.Point(91, 3);
+            this.pnlTrackingColor.Location = new System.Drawing.Point(94, 3);
             this.pnlTrackingColor.Name = "pnlTrackingColor";
             this.pnlTrackingColor.Size = new System.Drawing.Size(22, 17);
             this.pnlTrackingColor.TabIndex = 80;
@@ -90,7 +96,7 @@
             this.chkKeepEdges.AutoSize = true;
             this.chkKeepEdges.Checked = true;
             this.chkKeepEdges.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkKeepEdges.Location = new System.Drawing.Point(91, 26);
+            this.chkKeepEdges.Location = new System.Drawing.Point(94, 26);
             this.chkKeepEdges.Name = "chkKeepEdges";
             this.chkKeepEdges.Size = new System.Drawing.Size(84, 17);
             this.chkKeepEdges.TabIndex = 79;
@@ -99,7 +105,7 @@
             // 
             // numWidth
             // 
-            this.numWidth.Location = new System.Drawing.Point(91, 103);
+            this.numWidth.Location = new System.Drawing.Point(94, 103);
             this.numWidth.Maximum = new decimal(new int[] {
             300,
             0,
@@ -121,7 +127,7 @@
             // 
             // numHeight
             // 
-            this.numHeight.Location = new System.Drawing.Point(91, 129);
+            this.numHeight.Location = new System.Drawing.Point(94, 129);
             this.numHeight.Maximum = new decimal(new int[] {
             300,
             0,
@@ -168,7 +174,7 @@
             this.chkHighlight.AutoSize = true;
             this.chkHighlight.Checked = true;
             this.chkHighlight.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkHighlight.Location = new System.Drawing.Point(91, 49);
+            this.chkHighlight.Location = new System.Drawing.Point(94, 49);
             this.chkHighlight.Name = "chkHighlight";
             this.chkHighlight.Size = new System.Drawing.Size(67, 17);
             this.chkHighlight.TabIndex = 89;
@@ -189,11 +195,15 @@
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 5);
             this.tableLayoutPanel1.Controls.Add(this.label48, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.button1, 1, 6);
+            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 7);
+            this.tableLayoutPanel1.Controls.Add(this.numMaxWidth, 1, 7);
+            this.tableLayoutPanel1.Controls.Add(this.label4, 0, 8);
+            this.tableLayoutPanel1.Controls.Add(this.numMaxHeight, 1, 8);
+            this.tableLayoutPanel1.Controls.Add(this.button1, 1, 9);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(6, 6);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 7;
+            this.tableLayoutPanel1.RowCount = 10;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -201,14 +211,81 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(226, 192);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(226, 238);
             this.tableLayoutPanel1.TabIndex = 91;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(3, 160);
+            this.label1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(82, 13);
+            this.label1.TabIndex = 90;
+            this.label1.Text = "Maximum Width";
+            // 
+            // numMaxWidth
+            // 
+            this.numMaxWidth.Location = new System.Drawing.Point(94, 155);
+            this.numMaxWidth.Maximum = new decimal(new int[] {
+            300,
+            0,
+            0,
+            0});
+            this.numMaxWidth.Minimum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.numMaxWidth.Name = "numMaxWidth";
+            this.numMaxWidth.Size = new System.Drawing.Size(56, 20);
+            this.numMaxWidth.TabIndex = 91;
+            this.numMaxWidth.Value = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(3, 185);
+            this.label4.Margin = new System.Windows.Forms.Padding(3, 8, 3, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(85, 13);
+            this.label4.TabIndex = 92;
+            this.label4.Text = "Maximum Height";
+            // 
+            // numMaxHeight
+            // 
+            this.numMaxHeight.Location = new System.Drawing.Point(94, 180);
+            this.numMaxHeight.Maximum = new decimal(new int[] {
+            300,
+            0,
+            0,
+            0});
+            this.numMaxHeight.Minimum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.numMaxHeight.Name = "numMaxHeight";
+            this.numMaxHeight.Size = new System.Drawing.Size(56, 20);
+            this.numMaxHeight.TabIndex = 93;
+            this.numMaxHeight.Value = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
             // 
             // ConfigureProcessor
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(238, 204);
+            this.ClientSize = new System.Drawing.Size(238, 250);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "ConfigureProcessor";
@@ -220,6 +297,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.numHeight)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numMaxWidth)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numMaxHeight)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -238,5 +317,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.CheckBox chkHighlight;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.NumericUpDown numMaxWidth;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.NumericUpDown numMaxHeight;
     }
 }
